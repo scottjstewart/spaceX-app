@@ -1,0 +1,26 @@
+{
+  "name": "launch_data",
+  "version": "1.0.0",
+  "description": "app for displaying launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottjstewart/spaceX-app.git"
+  },
+  "author": "Scott Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottjstewart/spaceX-app/issues"
+  },
+  "homepage": "https://github.com/scottjstewart/spaceX-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.0"
+  }
+}
